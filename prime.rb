@@ -1,6 +1,7 @@
 def prime?(num)
   if num <= 1     ##if they enter a number equal to or less than 1 return false
     return false
+  end ##end if statement
     x=2 ## define the starting number (2)
     while x < n  ##while 2 is less than the number they provided
       if num % x == 0 ##if number given to us divided by current iteration has no remainder
@@ -8,7 +9,7 @@ def prime?(num)
       else ## if number returns a remainder
         return true
       x += 1 ## increment by x by 1
-      end##end if if statement
+      end##end if statement
     end ## end loop
 
 end
