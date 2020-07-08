@@ -1,6 +1,8 @@
 def prime?(num)
   if num <= 1     ##if they enter a number equal to or less than 1 return false
     return false
+  elsif num == 2
+    return true
   end ##end if statement
     x=2 ## define the starting number (2)
     while x < num  ##while 2 is less than the number they provided
