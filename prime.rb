@@ -10,8 +10,9 @@ def prime?(num)
         return false
 
 
-      x += 1 ## increment by x by 1
+
       end##end if statement
+      x += 1 ## increment by x by 1
     end ## end loop
 return true
 end
