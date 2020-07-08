@@ -6,8 +6,9 @@ def prime?(num)
       if num % x == 0 ##if number given to us divided by current iteration has no remainder
         return false
       else ## if number returns a remainder
-        return true 
+        return true
       x += 1 ## increment by x by 1
+      end##end if if statement
     end ## end loop
 
 end
