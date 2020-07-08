@@ -10,7 +10,7 @@ def prime?(num)
 end
 
 
-##
+###
 #Below is my mental walk through or road map I had to do to understand this
 #before I began to program
 #
@@ -44,3 +44,4 @@ end
 #9/2 (has a remainder return true)
 #9/3 (no remainder so return false)
 #(No need to continue checking)
+###
