@@ -1,20 +1,20 @@
 def prime?(num)
   if num <= 1     ##if they enter a number equal to or less than 1 return false
     return false
-    x=2 ## define the starting number (2) 
+    x=2 ## define the starting number (2)
     while x < n  ##while 2 is less than the number they provided
-      if 
+      if
       x += 1 ## increment by x by 1
     end ## end loop
-      
+
 end
 
 
 ##
-#Below is my mental walk through or road map I had to do to understand this 
+#Below is my mental walk through or road map I had to do to understand this
 #before I began to program
 #
-# 
+#
 
 #Primes ALWAYS have a remainder  unless 1 or itself
 #
@@ -43,4 +43,3 @@ end
 #9/2 (has a remainder return true)
 #9/3 (no remainder so return false)
 #(No need to continue checking)
-
