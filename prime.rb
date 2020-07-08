@@ -18,8 +18,7 @@ end
 
 
 ###
-#Below is my mental walk through or road map I had to do to understand this
-#before I began to program
+#NOTES
 #
 #
 
