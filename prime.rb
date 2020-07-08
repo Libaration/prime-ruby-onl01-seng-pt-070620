@@ -23,7 +23,8 @@ end
 #Check if number is equal or less than 1 (if this statement is true then return false (not a prime number)
 #
 #Check given number from 2 to itself minus 1
-#If given number divided by x at any point in the loop returns a 0 (aka no remainder return false not a prime, since primes ALWAYS have a remainder)
+#If given number divided by x at any point in the loop returns a 0 
+#(aka no remainder return false not a prime, since primes ALWAYS have a remainder)
 #
 #Else  (everything else)
 #Return true (is a prime)
