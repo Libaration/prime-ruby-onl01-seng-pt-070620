@@ -3,7 +3,7 @@ def prime?(num)
     return false
   end ##end if statement
     x=2 ## define the starting number (2)
-    while x < n  ##while 2 is less than the number they provided
+    while x < num  ##while 2 is less than the number they provided
       if num % x == 0 ##if number given to us divided by current iteration has no remainder
         return true
       else ## if number returns a remainder
