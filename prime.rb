@@ -3,9 +3,9 @@ def prime?(num)
     return false
     x=2 ## define the starting number (2)
     while x < n  ##while 2 is less than the number they provided
-      if num % x == 0
+      if num % x == 0 ##if number given to us divided by current iteration has no remainder
         return false
-      else
+      else ## if number returns a remainder
         return true 
       x += 1 ## increment by x by 1
     end ## end loop
